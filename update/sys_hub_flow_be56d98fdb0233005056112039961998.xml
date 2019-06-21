@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Steps to approve and fulfill NeedIt requests</description>
+        <internal_name>needit_fulfillment</internal_name>
+        <label_cache>[{"name":"ca28d91e-b6e5-4618-bbfc-285e6f2a8e9a.table_name","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"ca28d91e-b6e5-4618-bbfc-285e6f2a8e9a.record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Created_1.current","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"0a2b3622-adb5-41c8-b418-f58e704217ee.table_name","label":"1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table","type":"table_name","base_type":"table_name"},{"name":"0a2b3622-adb5-41c8-b418-f58e704217ee.record","label":"1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt Record","type":"reference","base_type":"reference"},{"name":"c781660b-935b-4dab-a1be-cf7fc7ea2677.approval_state","label":"3➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"Created_1.current.u_requested_for.manager","label":"Trigger➛NeedIt Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"d7ade7c7-c272-479c-9583-61b4c6bc9f46.record","label":"4.1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt Record","type":"reference","base_type":"reference"},{"name":"d7ade7c7-c272-479c-9583-61b4c6bc9f46.table_name","label":"4.1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table","type":"table_name","base_type":"table_name"},{"name":"Created_1.current.u_request_type","label":"Trigger➛NeedIt Record➛Request type","reference":"","reference_display":"Request type","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"u_request_type"},{"name":"b2f1165b-0dc7-4d94-85d3-925df63512e4.Record","label":"4.2.1➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Record","type":"reference","base_type":"reference"},{"name":"b2f1165b-0dc7-4d94-85d3-925df63512e4.Table","label":"4.2.1➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Table","type":"table_name","base_type":"table_name"},{"name":"Created_1.current.u_when_needed","label":"Trigger➛NeedIt Record➛When needed","reference":"","reference_display":"When needed","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit","column_name":"u_when_needed"},{"name":"1f914c6b-e278-4133-80ac-a5bb3052c644.Record","label":"4.3.1➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Record","type":"reference","base_type":"reference"},{"name":"1f914c6b-e278-4133-80ac-a5bb3052c644.Table","label":"4.3.1➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Table","type":"table_name","base_type":"table_name"},{"name":"ce3b87db-b65e-42c8-b6a7-94fc62f2509d.Record","label":"4.3.1➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Record","type":"reference","base_type":"reference"},{"name":"ce3b87db-b65e-42c8-b6a7-94fc62f2509d.Table","label":"4.3.1➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Table","type":"table_name","base_type":"table_name"},{"name":"bf84ac01-6d06-4104-82d3-b21c43f15353.Record","label":"4.4.1➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Record","type":"reference","base_type":"reference"},{"name":"bf84ac01-6d06-4104-82d3-b21c43f15353.Table","label":"4.4.1➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Table","type":"table_name","base_type":"table_name"},{"name":"c1251783-238e-4d2a-b44b-9d3bc1e98131.record","label":"6➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"c1251783-238e-4d2a-b44b-9d3bc1e98131.table_name","label":"6➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"}]</label_cache>
+        <latest_snapshot>8fcc9d07db4233005056112039961945</latest_snapshot>
+        <master_snapshot>836cd507db42330050561120399619fa</master_snapshot>
+        <name>NeedIt Fulfillment</name>
+        <outputs/>
+        <remote_trigger_id>d76c1907db4233005056112039961944</remote_trigger_id>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-19 14:51:57</sys_created_on>
+        <sys_id>be56d98fdb0233005056112039961998</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>NeedIt Fulfillment</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_be56d98fdb0233005056112039961998</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-21 18:00:04</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=be56d98fdb0233005056112039961998"/>
+    <sys_variable_value action="delete_multiple" query="document_key=be56d98fdb0233005056112039961998"/>
+</record_update>
